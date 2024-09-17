@@ -41,4 +41,20 @@ public class Conta {
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
+
+    public void depositar(double valor) {
+        this.saldo += valor;
+    }
+
+    public void sacar(double valor) {
+        if (valor > this.saldo)
+            System.out.println("Operação cancelada");
+        else
+            this.saldo -= valor;
+    }
+
+    public void transferir(Conta destino, double valor) {
+        this.sacar(valor);
+        destino.depositar(valor);
+    }
 }
