@@ -1,18 +1,9 @@
-## Getting Started
+## Solução do desafio
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Esta é a solução do desafio do primeiro projeto do bootcamp da DIO com a Claro em Java e Spring Boot.
 
-## Folder Structure
+Consistia em pedir ao cliente que digitasse seu nome , números de conta e agência e inserisse seu saldo. O resultado de tudo deveria sair no formato "Olá [nomeCliente], obrigado por criar uma conta em nosso banco, sua agência é [numeroAgencia], conta [numeroConta] e seu saldo [saldo] já está disponível para saque".
 
-The workspace contains two folders by default, where:
+O desafio propunha apenas que se fizesse com princípios de programação procedural mas já usei algumas linhas de OO. Em projetos futuros deixarei mais dinâmico ainda o código.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
