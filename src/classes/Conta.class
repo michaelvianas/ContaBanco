@@ -1,0 +1,26 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package classes;
+
+public class Conta {
+   private String titular;
+   private int agencia;
+
+   public Conta() {
+   }
+
+   public void setTitular(String var1) {
+      this.titular = var1;
+   }
+
+   public String getTitular() {
+      return this.titular;
+   }
+
+   public void setAgencia(int var1) {
+      this.agencia = var1;
+   }
+
+   public int getAgencia() {
+      return this.agencia;
+   }
+}
